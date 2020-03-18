@@ -7,7 +7,6 @@ metadata:
   name: kube-state-metrics
   namespace: kube-system
 spec:
-  clusterIP: None
   ports:
   - name: http-metrics
     port: 8080
